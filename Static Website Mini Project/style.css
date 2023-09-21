@@ -1,0 +1,29 @@
+header {
+    font-size: 300%;
+    background-color: darkblue;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.paragraph {
+    margin-bottom: 50px;
+    background-color: lightblue;
+    width: 50%;
+}
+.links {
+    
+    margin-left: 80%;
+    margin-top: 5%;
+    background-color: turquoise;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 20%;
+    font-size: 200%;
+
+}
+
+.list {
+    list-style: none;
+}
