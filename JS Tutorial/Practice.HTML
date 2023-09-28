@@ -15,29 +15,21 @@ Date: 9/18/23
 
     </style>
     <script> 
-        function initialize() 
-        {
-            console.log("Hello World!");
+        function initialize() {
+            outputDiv = document.getElementById("divout");
         }
-        function addOne() 
-        {
-
+        function clickResponse() {
+            outputDiv.innerHTML = "Now you've clicked the button.";
         }
     </script>
 </head>
 <body onload = "initialize();">
+    <div id = "divout">
+        You have not clicked the button
+    </div>
 
+    <button onclick = "clickResponse();">Click me!</button>
     
-    <!-- <h1 id = "numberout"> 
-
-    </h1>
-    <hr />
-    <button onclick = "addOne();">
-        Add
-    </button> 
-    <button onclick = "subtractOne();">
-        Subtract
-    </button> -->
 
 </body>
 </html>

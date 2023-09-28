@@ -1,27 +1,48 @@
 header {
-    font-size: 300%;
-    background-color: darkblue;
+    font-size: 400%;
+    background-color: rgb(102, 198, 230);
     text-align: center;
     margin-top: 1%;
+    font-family: Pacifico;
+    border: 2px solid black;
 }
 
-.paragraph {
-    margin-bottom: 50px;
+.flexContainer {
+    display: flex;
+}
+
+.flex-child:first-child{
+    border: 2px solid black;
+    flex: 4;
     background-color: lightblue;
-    width: 50%;
-}
-.links {
-    
-    margin-left: 80%;
-    margin-top: 5%;
-    background-color: turquoise;
-    text-align: center;
+    height: 100vh;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
-li {
+.flex-child:last-child{
+    flex: 1;
+}
+
+li{
+    border: 2px solid black;
+    text-align:center;
+    background-color: lightblue;
+    margin-right: 10%;
+    height: 5vh;
     margin-bottom: 20%;
     font-size: 200%;
+    margin-left: -20px;
+}
 
+li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.active {
+    font-weight: bold;
 }
 
 .list {

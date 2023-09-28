@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dicky's Website</title>
     <link rel="stylesheet" href = "style.css" type = "text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
     <div>
@@ -12,19 +15,26 @@
             Welcome To Dicky's Website!
         </header>      
     </div>
-    <div class = "links"> 
-        <ul class = "list">
-            <li> <a href = "Website.HTML" class = "active">Homepage</a></li>
-            <li> <a href = "Favorites.HTML">Favorites</a></li>
-            <li> <a href = "How To.HTML">How To</a></li>
-            <li> <a href = "NYC.HTML">NYC</a></li>
-        </ul>
+
+    <div class = "flexContainer"> 
+
+        <div class = "flex-child paragraph">
+            <p> 
+                This page is about me
+            </p>
+        </div>
+
+        <div class = "flex-child links"> 
+            <ul class = "list">
+                <li> <a href = "Website.HTML" class = "active"> Homepage </a></li>
+                <li> <a href = "Favorites.HTML"> Favorites </a></li>
+                <li> <a href = "How To.HTML"> How To </a></li>
+                <li> <a href = "NYC.HTML"> NYC </a></li>
+            </ul>
+        </div>
+
     </div>
-    <div class = "paragraph">
-        <p> 
-            This page is about me
-        </p>
-    </div>
+
 
 </body>
 </html>
